@@ -7,6 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpConnectionExample {
+
     private static final String USER_AGENT = "Mozilla/5.0";
     private static final String GET_URL = "http://localhost:36000";
 
@@ -25,9 +26,6 @@ public class HttpConnectionExample {
                     con.getInputStream()));
             String inputLine;
             StringBuffer response = new StringBuffer();
-            if(GET_URL.equals("http://localhost:36000/calculadora?")){
-
-            }
             while ((inputLine = in.readLine()) != null) {
                 response.append(inputLine);
             }
@@ -39,4 +37,5 @@ public class HttpConnectionExample {
         }
         System.out.println("GET DONE");
     }
+
 }
