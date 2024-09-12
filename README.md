@@ -18,8 +18,11 @@ Se describe la arquitecura de la aplicacion bajo tres componentes distribuidos:
 
 2.) Calculadora reflexiva, y un Algoritmo de bubblesort encargado de reordenar una lista de numeros 
 
-3.) Cliente Wenb que hace las peticiones por medio de peticiones REST, enviando por parametro ya sean los numeros  calcular
+3.) Cliente Web que hace las peticiones por medio de peticiones REST, enviando por parametro ya sean los numeros  calcular
 o la lista de numero a reordenar por medio de este algoritmo
+
+
+
 
 ## Tecnologias usadas
 - Java

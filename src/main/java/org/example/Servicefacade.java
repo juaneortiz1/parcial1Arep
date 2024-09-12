@@ -9,11 +9,7 @@ public class Servicefacade {
 
     public Double[] queryDecomposition(String query){
         if (query.equals("http://localhost:36000/calculadora?")){
-            String[] parts = query.split(",");
-            String[] parts2 = parts[1].split("&");
-            String[] parts3 = parts2[1].split("=");
-            a = Integer.parseInt(parts2[0]);
-            b = Integer.parseInt(parts3[1]);
+
             Double[] numbers = {a, b};
             return numbers;
         }
@@ -37,17 +33,4 @@ public class Servicefacade {
         return ans;
     }
 
-    public Double[] bubbleSort(Double[] numbers){
-        double temp;
-        for (int i = 0; i < numbers.length; i++){
-            for (int j = 1; j < (numbers.length - i); j++){
-                if (numbers[j-1] > numbers[j]){
-                    temp = numbers[j-1];
-                    numbers[j-1] = numbers[j];
-                    numbers[j] = temp;
-                }
-            }
-        }
-        return numbers;
-    }
 }
