@@ -6,6 +6,7 @@
 Se pide realisar la construccion de una aplicacion web usando web sockets
 que reciban una operacion matematica y una lista de parametros separados por coma
 y retorna el valor correspondiente en formato JSON
+
 ![img.png](main/resources/img.png)
 
 ## Arquitectura
