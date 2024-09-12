@@ -7,7 +7,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpConnectionExample {
-
     private static final String USER_AGENT = "Mozilla/5.0";
     private static final String GET_URL = "http://localhost:36000";
 
@@ -40,5 +39,4 @@ public class HttpConnectionExample {
         }
         System.out.println("GET DONE");
     }
-
 }
